@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Lembaga</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS Files -->
+    <link href="assets/css/variables.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <img src="./assets/images/Logo.jpeg" alt="">
+            </div>
+            <h1>INSTITUT TEKNOLOGI DEL</h1>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="pengumuman.html">Pengumuman</a></li>
+                    <li class="dropdown"><a href="pendidikan.html"><span>Program Pendidikan</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="fakultasfite.html">Fakultas Informatika dan teknik Elektro</a></li>
+                            <li><a href="fakultasvokasi.html">Fakultas Vokasi</a></li>
+                            <li><a href="fakultasindustri.html">Fakultas Teknologi Industri</a></li>
+                            <li><a href="fakultasbioteknologi.html">Fakultas Bioteknologi</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="lembaga.html"><span>Lembaga</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>LPPM</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Del Soqratest</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Mitra Kerjasama Dengan IT Del</a></li>
+                            <li class="dropdown"><a href="#"><span>UPT PP-ESTEM</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li class="dropdown"><a href="#">PROYEK EASTEM<i
+                                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                        <ul>
+                                            <li><a href="#">MITRA</a></li>
+                                            <li><a href="#">RAPAT</a></li>
+                                            <li><a href="#">KEGIATAN</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">PERSONEL</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">SISTEM PENJAMINAN MUTU (SPM)<i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Kebijakan Penjaminan Mutu</a></li>
+                                    <li><a href="#">Panduan Penjaminan Mutu</a></li>
+                                    <li><a href="#">Instrumen Akreditasi Program Studi 4.0</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">PUSAT MODAL MANUSIA (PPM)<i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Lowongan Kerja</a></li>
+                                    <li><a href="#">Sipaten</a></li>
+                                    <li><a href="#">Sister</a></li>
+                                    <li><a href="#">BKD Online</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Koperasi</a></li>
+                            <li><a href="#">Pusat Bahasa Del</a></li>
+                    </li>
+                </ul>
+                </li>
+                <li class="dropdown"><a href="fasilitas.html"><span>Fasilitas</span> <i
+                            class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                        <li><a href="#">Laboratorium dan Kelas</a></li>
+                        <li><a href="#">Akomodasi</a></li>
+                        <li><a href="#">Kantin</a></li>
+                        <li><a href="#">Perpustakaan</a></li>
+                        <li><a href="#">Hiburan dan Olahraga</a></li>
+                        <li><a href="#">Ruang Terbuka</a></li>
+                        <li><a href="#">Klinik</a></li>
+                    </ul>
+                </li>
+
+
+                </ul>
+            </nav><!-- .navbar -->
+
+            <div class="position-relative">
+                <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+
+                <!-- ======= Search Form ======= -->
+                <div class="search-form-wrap js-search-form-wrap">
+                    <form action="#" class="search-form">
+                        <span class="icon bi-search"></span>
+                        <input type="text" placeholder="Search" class="form-control">
+                        <button class="btn js-search-close"><span class="bi-x"></span></button>
+                    </form>
+                </div><!-- End Search Form -->
+
+            </div>
+
+        </div>
+
+    </header><!-- End Header -->
+
+    <main id="main">
+
+        <section>
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-12 text-center mb-5">
+                        <h1 class="page-title">Falisitas</h1>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+
+                    <div class="d-md-flex post-entry-2 half">
+                        <a href="#" class="me-4 thumbnail">
+                            <img src="assets/images/laboratorium.jpg" alt="" class="img-fluid">
+                        </a>
+                        <div class="ps-md-5 mt-4 mt-md-0">
+                            <h2>Laboratorium dan Kelas</h2>
+                            <hr>
+                            <p>Definisi Laboratorium Komputasi adalah ruangan yang dilabeli sebagai laboratorium
+                                komputasi yang berisi sekumpulan perangkat yang terdiri atas Komputer Desktop, Laptop,
+                                AC, projector, printer, dan perangkat lain sesuai dengan kebutuhan dari laboratorium
+                                yang dimaksud</p>
+                            <p>Fasilitas laboratorium komputasi dimaksudkan sebagai sarana kerja, pendidikan, penelitian
+                                maupun pengabdian pada masyarakat. Kepada para pengguna diharapkan pengertian dan
+                                kesadarannya untuk menjaga keutuhan dan keamanan peralatan yang ada, serta berperan
+                                dalam menciptakan suasana akademik yang lebih berhasil guna. Kesadaran ini hendaknya
+                                diterapkan terhadap semua peralatan sarana dan prasarana yang dimiliki oleh Institut
+                                Teknologi Del dan semua sistem komputasi lain yang dapat diakses melalui jaringan
+                                komunikasi yang tersedia.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-md-flex post-entry-2 half mt-5">
+                        <a href="#" class="me-4 thumbnail order-2">
+                            <img src="assets/images/asrama1.jpg" alt="" class="img-fluid">
+                        </a>
+                        <div class="pe-md-5 mt-4 mt-md-0">
+                            <h2>Akomodasi</h2>
+                            <hr>
+                            <p>Seluruh mahasiswa IT Del diwajibkan tinggal di asrama yang disediakan. Hal ini untuk
+                                mendukung sistem pendidikan vokasi dimana mahasiswa akan melaksanakan kegiatan akademis
+                                terjadwal sampai sore hari ditambah kegiatan mandiri hingga pukul 10 malam hari. Dengan
+                                tinggal di asrama yang lokasinya berada di dalam lingkungan kampus, mahasiswa dapat
+                                segera beristirahat setelah melaksanakan kegiatan terjadwal di kampus. Dengan
+                                beristirahat yang cukup dan baik diharapkan performansi mahasiswa dalam setiap kegiatan
+                                di dalam kampus akan maksimal. Untuk mendukung kualitas hidup berasrama, mahasiswa akan
+                                diawasi oleh Bapak/Ibu asrama dibantu oleh Kakak/Abang asrama. Dengan peraturan asrama
+                                yang diberlakukan, mahasiswa akan hidup lebih disiplin dan berbudaya.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="mb-5 bg-light py-5">
+            <div class="container" data-aos="fade-up">
+                <div class="row justify-content-between align-items-lg-center">
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                        <h2>Perustakaan</h2>
+                        <hr>
+                        <p>Perpustakaan Politeknik Informatika Del (PI Del) berdiri sejak tanggal 9 Januari 2002 dengan
+                            sistem pelayanan open acces (terbuka). Selanjutnya berubah nama seiring dengan berubahnya
+                            status Politeknik menjadi Institut sejak tahun 2013. Perpustakaan berganti nama menjadi
+                            Perpustakaan Institut Teknologi Del. Perpustakaan Institut Teknologi Del memiliki fungsi
+                            utama yaitu fungsi pendidikan. Pengadaan koleksi dan pengembangan minat baca internal dan
+                            eksternal Institut Teknologi Del dilakukan sebagai bagian dari kegiatan diseminasi kegiatan
+                            peningkatan minat baca.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="assets/images/perpustakaan.png" alt="" class="img-fluid mb-4">
+                            </div>
+                            <div class="col-6 mt-4">
+                                <img src="assets/images/perpustakaan2.jpg" alt="" class="img-fluid mb-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container" data-aos="fade-up">
+                    <div class="row justify-content-between align-items-lg-center">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <img src="assets/images/kantin.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 mb-4 mb-lg-0">
+                            <h2>Kantin</h2>
+                            <hr>
+                            <p>Kantin Politeknik Informatika Del menyediakan menu makanan yang bergizi dan sehat untuk
+                                semua mahasiswa/i. Menu yang disediakan selalu memenuhi standard gizi, sehingga
+                                mahasiswa bisa melaksanakan aktifitas perkuliahan dengan sehat dan prima. Setiap
+                                mahasiswa diwajibkan untuk makan di kantin tiga kali setiap harinya.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="container" data-aos="fade-up">
+                <div class="row mb-5">
+
+                    <div class="d-md-flex post-entry-2 half">
+                        <a href="#" class="me-4 thumbnail">
+                            <img src="assets/images/hiburan.jpg" alt="" class="img-fluid">
+                        </a>
+                        <div class="ps-md-5 mt-4 mt-md-0">
+                            <h2>Hiburan dan Olahraga</h2>
+                            <hr>
+                            <p>Selain fasilitas untuk keperluan proses belajar mengajar, IT Del juga menyediakan sarana
+                                hiburan dan olahraga bagi warga kampus IT Del. Sarana ini dimaksudkan sebagai media
+                                untuk menghilangkan kejenuhan dari kegiatan sehari-hari di IT Del.</p>
+                            <p>Dosen, staf dan mahasiswa IT Del mengadakan acara-acara yang bersifat hiburan pada
+                                waktu-waktu tertentu, antara lain: pertandingan olahraga dosen/staf dan mahasiswa,
+                                Nonton Bareng, Retreat rohani, jalan-jalan bersama</p>
+                        </div>
+                    </div>
+
+                    <div class="d-md-flex post-entry-2 half mt-5">
+                        <a href="#" class="me-4 thumbnail order-2">
+                            <img src="assets/images/klinik.jpg" alt="" class="img-fluid">
+                        </a>
+                        <div class="pe-md-5 mt-4 mt-md-0">
+                            <h2>Klinik</h2>
+                            <hr>
+                            <p>Praktek umum dokter Del resmi didirikan pada bulan Mei tahun 2009, terletak disamping
+                                pintu masuk ke area kampus Institut Teknologi Del. Tujuan didirikan praktek umum ini
+                                yang terutama adalah untuk melayani siswa, mahasiswa, pegawai Del tetapi selain itu juga
+                                untuk melayani masyarakat disekitar lingkungan kampus. Praktek umum ini bersifat sosial,
+                                non-profit, tetapi juga tetap berusaha menjaga mutu pelayanan agar sesuai dengan standar
+                                pelayanan termutakhir. Praktek umum ini juga bekerja sama dengan Jamsostek sebagai PPK I
+                                untuk melayani pasien-pasien yang terdaftar sebagai tanggungan Jamsostek dalam wilayah
+                                ini. Praktek umum ini bisa melayani pengobatan dasar (meliputi anak dan dewasa) hingga
+                                yang membutuhkan tindakan bedah sederhana. Di dalam praktek umum ini juga sudah tersedia
+                                obat sehingga tidak perlu membeli obat lagi di tempat lain. Saat ini praktek umum ini
+                                sedang dalam proses pengembangan menjadi klinik Yayasan Del.</p>
+                        </div>
+                    </div>
+                    <div class="d-md-flex post-entry-2 half mt-5">
+                        <div class="pe-md-5 mt-4 mt-md-0">
+                            <h2>Ruang Terbuka</h2>
+                            <hr>
+                            <p>Saat kita memperhatikan lingkungan kampus di Indonesia maka mungkin hasilnya akan
+                                bertolak belakang dengan saat kita membayangkan lingkungan kampus di negara-negara maju.
+                                Membayangkan para mahasiswa kita duduk di bawah pohon-pohon hijau dan beralaskan rumput
+                                yang segar, atau membayangkan para mahasiswa melepaskan lelah setelah kuliah di kelas,
+                                mengistirahatkan otak mereka dari tumpukan teori sambil bermain bola, atau permainan
+                                lainnya di lapangan hijau sangat mungkin jarang kita lihat. Kampus Institut Teknologi
+                                Del (IT Del) tidak hanya berfungsi sebagai lembaga pendidikan saja.</p>
+                            <p>Tapi kampus Del bisa difungsikan sebagai Ruang Terbuka Hijau (RTH). Luas IT Del sekitar
+                                12 hektar dan 60% ruang terbuka hijau. IT Del terbagi dalam tiga area yaitu Open Theater
+                                (OT), Asrama, dan Entrance Hall (EH). Selain itu, IT Del terbentang luas pemandangan
+                                Danau Toba di area belakang kampus. Fasilitas ruang terbuka sering digunakan oleh
+                                mahasiswa di lokasi OT dan EH untuk kerja kelompok, belajar individu, dan bersantai.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+        <div class="footer-content">
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-lg-4">
+                        <h3 class="footer-heading">Contact Us</h3>
+                        <p>Institut Teknologi Del</p>
+                        <p>Jl. Sisingamangaraja, Sitoluama</p>
+                        <p>Sumatera Utara, Indonesia</p>
+                        <p>Kode Pos: 22381</p>
+                        <p>telp: +62 632 331234</p>
+                        <p>Fax: +62 632 331116</p>
+                        <br />
+
+                    </div>
+                    <div class="col-lg-4">
+                        <br>
+                        <br>
+                        <br>
+                        <p>Website: http://www.del.ac.id</p>
+                        <p>Email: info@del.ac.id</p>
+                        <p>Karir: karir@del.ac.id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-legal">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <div class="copyright">
+                            © Copyright <strong><span> SDI-IT Del</span></strong> © 2023 Institut Teknologi Del
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-links mb-4 mb-lg-0 text-center text-md-end">
+                            <a href="https://twitter.com/institut_del" class="twitter"><i
+                                    class="bi bi-twitter">Twitter</i></a>
+
+                            <a href="https://www.facebook.com/profile.php?id=403538753086034&fref=ts"
+                                class="facebook"><i class="bi bi-facebook">Facebook</i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

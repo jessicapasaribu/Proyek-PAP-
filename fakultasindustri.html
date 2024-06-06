@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Dashboard</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS Files -->
+    <link href="assets/css/variables.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <img src="./assets/images/Logo.jpeg" alt="">
+            </div>
+            <h1>INSTITUT TEKNOLOGI DEL</h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="pengumuman.html">Pengumuman</a></li>
+                    <li class="dropdown"><a href="pendidikan.html"><span>Program Pendidikan</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="fakultasfite.html">Fakultas Informatika dan teknik Elektro</a></li>
+                            <li><a href="fakultasvokasi.html">Fakultas Vokasi</a></li>
+                            <li><a href="fakultasindustri.html">Fakultas Teknologi Industri</a></li>
+                            <li><a href="fakultasbioteknologi.html">Fakultas Bioteknologi</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="lembaga.html"><span>Lembaga</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>LPPM</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Del Soqratest</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Mitra Kerjasama Dengan IT Del</a></li>
+                            <li class="dropdown"><a href="#"><span>UPT PP-ESTEM</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li class="dropdown"><a href="#">PROYEK EASTEM<i
+                                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                        <ul>
+                                            <li><a href="#">MITRA</a></li>
+                                            <li><a href="#">RAPAT</a></li>
+                                            <li><a href="#">KEGIATAN</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">PERSONEL</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">SISTEM PENJAMINAN MUTU (SPM)<i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Kebijakan Penjaminan Mutu</a></li>
+                                    <li><a href="#">Panduan Penjaminan Mutu</a></li>
+                                    <li><a href="#">Instrumen Akreditasi Program Studi 4.0</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">PUSAT MODAL MANUSIA (PPM)<i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Lowongan Kerja</a></li>
+                                    <li><a href="#">Sipaten</a></li>
+                                    <li><a href="#">Sister</a></li>
+                                    <li><a href="#">BKD Online</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Koperasi</a></li>
+                            <li><a href="#">Pusat Bahasa Del</a></li>
+                    </li>
+                </ul>
+                </li>
+                <li class="dropdown"><a href="fasilitas.html"><span>Fasilitas</span> <i
+                            class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                        <li><a href="#">Laboratorium dan Kelas</a></li>
+                        <li><a href="#">Akomodasi</a></li>
+                        <li><a href="#">Kantin</a></li>
+                        <li><a href="#">Perpustakaan</a></li>
+                        <li><a href="#">Hiburan dan Olahraga</a></li>
+                        <li><a href="#">Ruang Terbuka</a></li>
+                        <li><a href="#">Klinik</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </nav><!-- .navbar -->
+
+            <div class="position-relative">
+                <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+
+                <!-- ======= Search Form ======= -->
+                <div class="search-form-wrap js-search-form-wrap">
+                    <form action="#" class="search-form">
+                        <span class="icon bi-search"></span>
+                        <input type="text" placeholder="Search" class="form-control">
+                        <button class="btn js-search-close"><span class="bi-x"></span></button>
+                    </form>
+                </div><!-- End Search Form -->
+            </div>
+        </div>
+    </header><!-- End Header -->
+
+    <section class="single-post-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 post-content" data-aos="fade-up">
+                    <br />
+                    <br />
+                    <br />
+                    <div class="single-post">
+                        <h1 class="mb-5">Fakultas Teknologi Industri</h1>
+                        <hr>
+                        <img src="./assets/images/fti.jpg" alt="">
+                        <h3>Program Sarjana (S1) Manajemen Rekayasa</h3>
+                        <hr>
+                        <p>Manajemen Rekayasa (Engineering Management) adalah penggabungan dari keilmuan teknik/rekayasa
+                            (engineering) dengan ilmu manajemen yang diaplikasikan untuk menyelesaikan
+                            persoalan-persoalan dalam suatu sistem kompleks. Aspek keilmuan teknik (engineering) dari
+                            Manajemen Rekayasa terlihat melalui penerapan matematika dan ilmu pengetahuan alam yang
+                            diperoleh melalui pembelajaran, pengalaman, dan praktek empiris untuk menemukan cara-cara
+                            yang optimal dalam memanfaatkan material dan sumber daya lain dalam mengembangkan teknologi.
+                            Aspek keilmuan manajemen dari Manajemen Rekayasa muncul dalam penerapan ilmu-ilmu pendukung
+                            keputusan yang dapat diaplikasikan dalam aktivitas-aktivitas pengembangan organisasi dalam
+                            mencapai tujuannya, yang diperoleh melalui pembelajaran dan praktek empiris dalam ilmu
+                            perilaku organisasi, analisa finansial, manajemen sumber daya manusia, dan analisa
+                            keputusan.</p>
+                        <p>Kompetensi:</p>
+                        <p>Beberapa kompetensi Sarjana Manajemen Rekayasa IT Del yang adalah:
+                        <ol>
+                            <li>
+                                Kemampuan merancang sistem manajemen dalam perencanaan dan pelaksanaan kegiatan
+                                kerekayasaan.
+                            </li>
+                            <li>Kemampuan menerapkan prinsip dan fungsi manajemen dalam mengalokasikan, mengarahkan, dan
+                                mengendalikan sumberdaya yang terkait dengan pengembangan dan penerapan teknologi dalam
+                                sistem usaha.</li>
+                            <li>Kemampuan menyusun analisis kelayakan finansial untuk usaha berbasis teknologi dan
+                                proyeksi kemampulabaan serta melakukan analisis sensitivitas.</li>
+                            <li>Kemampuan beradaptasi terhadap perubahan bisnis dan pasar dan menentukan rencana bisnis
+                                yang sesuai dengan dinamika pasar.</li>
+                            <li>Kemampuan bekerja dalam tim dan keterampilan berorganisasi yang baik.</li>
+                            <li>Kemampuan melakukan koordinasi dan negosiasi dengan seluruh pemangku kepentingan.</li>
+                        </ol>
+                        </p>
+                        <p>Prospek</p>
+                        <p>
+                            Dalam skala nasional kita melihat pertumbuhan ekonomi nasional yang terus meningkat. Situasi
+                            ini tentu membutuhkan inovator-inovator yang diharapkan mampu menciptakan produk-produk yang
+                            inovatif yang dapat memenuhi kebutuhan pasar nasional. Pertumbuhan ekonomi ini juga akan
+                            menginduksi pertumbuhan sektor-sektor produksi, dimana sektor-sektor ini akan membutuhkan
+                            insinyur dan manajer yang akan menjalankan, mengoptimalisasikan dan mengembangkan usahanya.
+                            Sarjana Manajemen Rekayasa IT Del sangat memiliki kompetensi yang dibutuhkan untuk mengisi
+                            peluang ini.
+                        </p>
+                        <p>
+                            Dalam skala regional, kita melihat pasar bebas ASEAN (MEA) sebagai peluang bagi Sarjana
+                            Manajemen Rekayasa IT Del untuk berperan serta mengisi kebutuhan professional di kawasan
+                            ASEAN. Kemampuan dasar keilmuan dan soft skill disertai kefasihan berbahasa Inggris yang
+                            baik adalah modal besar bagi para lulusan dalam memanfaatkan peluang ini. Hal yang sama juga
+                            berlaku untuk peluang-peluang dalam skala global seperti AIC, APEC, WTO, AFTA, dan lainnya
+                            yang mensyaratkan manusia bersumberdaya mumpuni dalam bidang sains dan teknologi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- ======= Sidebar ======= -->
+                    <div class="aside-block">
+                        <div class="tab-content" id="pills-tabContent">
+                            <br />
+                            <br />
+                            <br />
+                            <div class="tab-pane fade show active" id="pills-popular" role="tabpanel"
+                                aria-labelledby="pills-popular-tab">
+                                <div class="post-entry-1 border-bottom">
+                                    <h2 class="mb-2"><a href="#">Program Studi</a>
+                                    </h2>
+                                    <span class="author mb-3 d-block">
+                                        <ol>
+                                            <li><a href="#">Program Sarjana (S1) Manajemen Rekayasa</a>
+                                            </li>
+
+                                        </ol>
+                                        <hr>
+                                        <img src="./assets/images/fti.jpg" alt="">
+                                        <hr>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    </main><!-- End #main -->
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-lg-4">
+                        <h3 class="footer-heading">Contact Us</h3>
+                        <p>Institut Teknologi Del</p>
+                        <p>Jl. Sisingamangaraja, Sitoluama</p>
+                        <p>Sumatera Utara, Indonesia</p>
+                        <p>Kode Pos: 22381</p>
+                        <p>telp: +62 632 331234</p>
+                        <p>Fax: +62 632 331116</p>
+                        <br />
+                    </div>
+                    <div class="col-lg-4">
+                        <br>
+                        <br>
+                        <br>
+                        <p>Website: http://www.del.ac.id</p>
+                        <p>Email: info@del.ac.id</p>
+                        <p>Karir: karir@del.ac.id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-legal">
+            <div class="container">
+
+                <div class="row justify-content-between">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <div class="copyright">
+                            © Copyright <strong><span> SDI-IT Del</span></strong> © 2023 Institut Teknologi Del
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+                            <a href="https://twitter.com/institut_del" class="twitter"><i
+                                    class="bi bi-twitter">Twitter</i></a>
+                            <a href=""></a>
+                            <a href="https://www.facebook.com/profile.php?id=403538753086034&fref=ts"
+                                class="facebook"><i class="bi bi-facebook">Facebook</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

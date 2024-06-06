@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Dashboard</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS Files -->
+    <link href="assets/css/variables.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <img src="./assets/images/Logo.jpeg" alt="">
+            </div>
+            <h1>INSTITUT TEKNOLOGI DEL</h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="pengumuman.html">Pengumuman</a></li>
+                    <li class="dropdown"><a href="pendidikan.html"><span>Program Pendidikan</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="fakultasfite.html">Fakultas Informatika dan teknik Elektro</a></li>
+                            <li><a href="fakultasvokasi.html">Fakultas Vokasi</a></li>
+                            <li><a href="fakultasindustri.html">Fakultas Teknologi Industri</a></li>
+                            <li><a href="fakultasbioteknologi.html">Fakultas Bioteknologi</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="lembaga.html"><span>Lembaga</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>LPPM</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Del Soqratest</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Mitra Kerjasama Dengan IT Del</a></li>
+                            <li class="dropdown"><a href="#"><span>UPT PP-ESTEM</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li class="dropdown"><a href="#">PROYEK EASTEM<i
+                                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                        <ul>
+                                            <li><a href="#">MITRA</a></li>
+                                            <li><a href="#">RAPAT</a></li>
+                                            <li><a href="#">KEGIATAN</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">PERSONEL</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">SISTEM PENJAMINAN MUTU (SPM)<i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Kebijakan Penjaminan Mutu</a></li>
+                                    <li><a href="#">Panduan Penjaminan Mutu</a></li>
+                                    <li><a href="#">Instrumen Akreditasi Program Studi 4.0</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">PUSAT MODAL MANUSIA (PPM)<i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Lowongan Kerja</a></li>
+                                    <li><a href="#">Sipaten</a></li>
+                                    <li><a href="#">Sister</a></li>
+                                    <li><a href="#">BKD Online</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Koperasi</a></li>
+                            <li><a href="#">Pusat Bahasa Del</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+                <li class="dropdown"><a href="fasilitas.html"><span>Fasilitas</span> <i
+                            class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                        <li><a href="#">Laboratorium dan Kelas</a></li>
+                        <li><a href="#">Akomodasi</a></li>
+                        <li><a href="#">Kantin</a></li>
+                        <li><a href="#">Perpustakaan</a></li>
+                        <li><a href="#">Hiburan dan Olahraga</a></li>
+                        <li><a href="#">Ruang Terbuka</a></li>
+                        <li><a href="#">Klinik</a></li>
+                    </ul>
+                </li>
+            </nav><!-- .navbar -->
+
+            <div class="position-relative">
+                <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+
+                <!-- ======= Search Form ======= -->
+                <div class="search-form-wrap js-search-form-wrap">
+                    <form action="#" class="search-form">
+                        <span class="icon bi-search"></span>
+                        <input type="text" placeholder="Search" class="form-control">
+                        <button class="btn js-search-close"><span class="bi-x"></span></button>
+                    </form>
+                </div><!-- End Search Form -->
+            </div>
+        </div>
+    </header><!-- End Header -->
+
+    <section class="single-post-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 post-content" data-aos="fade-up">
+                    <br />
+                    <br />
+                    <br />
+                    <div class="single-post">
+                        <h1 class="mb-5">Wisuda 398 Lulusan Institut Teknologi Del</h1>
+                        <p><span class="firstcharacter">P</span>ada Hari Sabtu 23 September 2023, Institut Teknologi Del
+                            melaksanakan Wisuda untuk 398 Mahasiswa Sarjana dan Diploma. Turut hadir Bapak Dr. Honoris
+                            Causa Ir. Airlangga Hartarto, MBA, MMT (Menteri Koordinator Bidang Perekonomian Republik
+                            Indonesia), Bapak Rionald Silaban (Direktorat Jendral Kekayaan Negara), Bapak Jend. TNI
+                            (Purn.) Luhut Binsar Pandjaitan, M.P.A (Ketua Pembina Yayasan Del), Ibu Intan Simanjuntak
+                            (Ketua Pengurus Yayasan Del), dan tamu undangan lainnya. Kegiatan Wisuda ini dilaksanakan di
+                            Gedung Serba Guna Yayasan Del dengan tema “Fostering Collaboration and Innovation towards
+                            Research Excellence”.</p>
+                        <img src="./assets/images/pengumuman1.jpg" alt="" class="img-fluid">
+                        <p>Pada Wisuda tahun ini terdapat sebanyak 398 wisudawan dan wisudawati yang terdiri dari 51
+                            mahasiswa dari jurusan D3 Teknologi Informasi, 47 mahasiswa dari jurusan D3 Teknologi
+                            Komputer, 64 mahasiswa dari jurusan D4 Teknologi Rekayasa Perangkat Lunak, 66 mahasiswa dari
+                            jurusan S1 Informatika, 71 mahasiswa dari jurusan S1 Sistem Informasi, 35 mahasiswa dari
+                            jurusan S1 Teknik Elektro, 44 mahasiswa dari jurusan S1 Manajemen Rekayasa, dan 20 mahasiswa
+                            dari jurusan S1 Teknik Bioproses.</p>
+                        <img src="assets/images/pengumuman1a.jpg" alt="" class="img-fluid">
+                        <p>Prof. Stella Cristie, Ph.d (Tsinghua University) dalam kesempatan ini memberikan Orasi Ilmiah
+                            kepada para Wisudawan. Beliau menyampaikan kepada para wisudawan bahwa kehidupan selanjutnya
+                            adalah problem solving series yaitu fase yang harus dapat menganalisa atau memahami
+                            persoalan - persoalan yang ada serta bisa menyelesaikan persoalan tersebut secara sistematis
+                            dan sampai selesai. Karena setiap persoalan ataupun masalah pasti memiliki lebih dari satu
+                            jalan keluar. Terakhir beliau berpesan kepada wisudawan “Waktu anda memulai perkuliahan
+                            begitu bangganya anda bisa berkuliah di IT Del, sekarang IT Del yang bangga kepada kalian.”
+                        </p>
+                        <p>Pada kesempatan ini Menteri Koordinator Bidang Perekonomian Dr. (H.C.) Ir. Airlangga
+                            Hartarto, M.B.A., M.M.T, memberikan ucapan selamat kepada wisudawan dan menyampaikan bahwa
+                            wisuda adalah hari bersejarah karena setelah ini akan terjun ke masyarakat secara langsung.
+                            Dalam sambutannya beliau juga memaparkan terkait pertumbuhan ekonomi di Indonesia yang akan
+                            terus positif dan sudah termasuk ke dalam upper - middle income country, untuk itu
+                            diharapkan kedepannya alumni dari IT Del dapat berperan dalam pembangunan Indonesia menuju
+                            Indonesia Emas (Maju, Mandiri, Sejahtera).</p>
+                        <p>Sebagai Pembina Yayasan Del yang sangat mendukung dunia Pendidikan, Bapak Luhut Pandjaitan
+                            selalu berpesan kepada mahasiswa IT Del agar tidak hanya soal pintar tetapi juga dengan
+                            hati. “Selamat bertugas, permulaan dari suatu perjalanan yang panjang buat kalian yang telah
+                            menyelesaikan studinya di IT Del.” pesan Beliau.</p>
+                        <p>Pada kegiatan ini juga berlangsung penandatanganan prasasti Laboratorium Keamanan Siber oleh
+                            Bapak Menteri Koordinator Bidang Perekonomian Dr. (H.C.) Ir. Airlangga Hartarto, M.B.A.,
+                            M.M.T dan Bapak Jend. TNI (Purn.) Luhut Binsar Pandjaitan, M.P.A (Ketua Pembina Yayasan
+                            Del). Besar harapannya dengan keberadaan Laboratorium ini dapat mendukung IT Del dalam
+                            menciptakan talent-talent baru dalam bidang keamanan siber di Indonesia.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- ======= Sidebar ======= -->
+                    <div class="aside-block">
+                        <div class="tab-content" id="pills-tabContent">
+                            <br />
+                            <br />
+                            <br />
+                            <div class="tab-pane fade show active" id="pills-popular" role="tabpanel"
+                                aria-labelledby="pills-popular-tab">
+                                <div class="post-entry-1 border-bottom">
+                                    <div class="post-meta"><span class="date">November 24 2023</span></div>
+                                    <h2 class="mb-2"><a href="#">IT Del Sosialisasikan Program MBKM kepada Mahasiswa</a>
+                                    </h2>
+                                    <span class="author mb-3 d-block">Pada Kamis, 23 November 2023, Divisi Pembelajaran
+                                        Diluar Kampus - UPT PP ESTEM melaksanakan sosialisasi MBKM (Merdeka Belajar
+                                        Kampus Merdeka) untuk mahasiswa-mahasiswi IT Del. Sosialisasi dihadiri oleh
+                                        Monalisa Pasaribu selaku […]</span>
+                                </div>
+                                <div class="post-entry-1 border-bottom">
+                                    <div class="post-meta"><span class="date">November 23 2023</span></div>
+                                    <h2 class="mb-2"><a href="#">Sampling Kemenyan Toba di Kabupaten Tapanuli Utara,
+                                            Kabupaten Humbang Hasundutan, dan Kabupaten Pakpak Bharat</a></h2>
+                                    <span class="author mb-3 d-block">Tim Institut Teknologi Del yang terdiri atas
+                                        Ymelda A. C. Manurung, M.Sc. (Peneliti Genomik Herbal KHDTK IT Del), Roga
+                                        Florida Kembaren, M.Si. (Dosen Teknik Bioproses IT Del) dan Darwin Silalahi,
+                                        […]</span>
+                                </div>
+                                <div class="post-entry-1 border-bottom">
+                                    <div class="post-meta"><span class="date">November 27 2023</span></div>
+                                    <h2 class="mb-2"><a href="#">Kuliah Umum oleh Konsulat Amerika Serikat terkait Suku
+                                            Asli Amerika Serikat</a></h2>
+                                    <span class="author mb-3 d-block">Pada hari Jumat, 24 November 2023 Institut
+                                        Teknologi Del menerima kunjungan dari Ibu Kristy Mordhorts (Konsulat Amerika
+                                        Serikat di Medan). Kunjungan ini disambut baik oleh IT Del yang diwakili oleh
+                                        […]</span>
+                                </div>
+                                <div class="post-entry-1 border-bottom">
+                                    <div class="post-meta"><span class="date">November 22 2023</span></div>
+                                    <h2 class="mb-2"><a href="#">IT Del Ikuti Kegiatan KMI EXPO XIV di Bali Hingga
+                                            Terima Penghargaan Pendamping Terbaik</a>
+                                    </h2>
+                                    <span class="author mb-3 d-block">Pada tanggal 15-17 November 2023, Institut
+                                        Teknologi Del turut serta mengikuti kegiatan kompetisi KMI EXPO XIV 2023 yang
+                                        diselenggarakan oleh Belmawa di Universitas Pendidikan Ganesha, Singaraja Bali.
+                                        KMI EXPO merupakan […]</span>
+                                </div>
+                                <div class="post-entry-1 border-bottom">
+                                    <div class="post-meta"><span class="date">October 27 2023</span></div>
+                                    <h2 class="mb-2"><a href="#">Dies Natalis ke X Fakultas Informatika dan Teknik
+                                            Elektro IT Del</a></h2>
+                                    <span class="author mb-3 d-block">Pada hari Jumat, 20 Oktober 2023, Fakultas
+                                        Informatika dan Teknik Elektro (FITE) mengadakan kegiatan Penguatan Organisasi
+                                        Dosen dan Staff FITE dalam rangka Dies Natalis FITE ke-10 Tahun. Rangkaian
+                                        Kegiatan ini […]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-lg-4">
+                        <h3 class="footer-heading">Contact Us</h3>
+                        <p>Institut Teknologi Del</p>
+                        <p>Jl. Sisingamangaraja, Sitoluama</p>
+                        <p>Sumatera Utara, Indonesia</p>
+                        <p>Kode Pos: 22381</p>
+                        <p>telp: +62 632 331234</p>
+                        <p>Fax: +62 632 331116</p>
+                        <br />
+                    </div>
+                    <div class="col-lg-4">
+                        <br>
+                        <br>
+                        <br>
+                        <p>Website: http://www.del.ac.id</p>
+                        <p>Email: info@del.ac.id</p>
+                        <p>Karir: karir@del.ac.id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <div class="copyright">
+                            © Copyright <strong><span> SDI-IT Del</span></strong> © 2023 Institut Teknologi Del
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+                            <a href="https://twitter.com/institut_del" class="twitter"><i
+                                    class="bi bi-twitter">Twitter</i></a>
+                            <a href=""></a>
+                            <a href="https://www.facebook.com/profile.php?id=403538753086034&fref=ts"
+                                class="facebook"><i class="bi bi-facebook">Facebook</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
